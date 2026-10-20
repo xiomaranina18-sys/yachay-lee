@@ -1,0 +1,26 @@
+{
+  "name": "yachay-lee",
+  "version": "1.0.0",
+  "description": "Sistema Web Profesional para Fortalecer la Lectura Infantil - YACHAY LEE",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "build": "cd server && npm run build && cd ../client && npm run build"
+  },
+  "keywords": [
+    "lectura-infantil",
+    "educacion",
+    "yachay-lee",
+    "react",
+    "nodejs",
+    "postgresql",
+    "inteligencia-artificial"
+  ],
+  "author": "Yachay Lee Team",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

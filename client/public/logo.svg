@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FB923C"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Circle Soft -->
+  <circle cx="50" cy="50" r="48" fill="#FFFFFF" stroke="#2563EB" stroke-width="2"/>
+  
+  <!-- Left Page (Blue) -->
+  <path d="M 50 72 C 38 66 22 68 16 71 L 16 35 C 22 32 38 30 50 36 Z" fill="url(#blueGrad)"/>
+  
+  <!-- Right Page (Green) -->
+  <path d="M 50 72 C 62 66 78 68 84 71 L 84 35 C 78 32 62 30 50 36 Z" fill="url(#greenGrad)"/>
+  
+  <!-- Book Spine Central Divider -->
+  <path d="M 50 36 L 50 72" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Magic Rising Sun / Star of Knowledge (Orange) -->
+  <path d="M 50 16 L 53 24 L 61 24 L 55 29 L 57 37 L 50 32 L 43 37 L 45 29 L 39 24 L 47 24 Z" fill="url(#orangeGrad)"/>
+
+  <!-- Reading Smile Lines -->
+  <path d="M 24 45 C 30 42 38 42 42 46" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 24 53 C 30 50 38 50 42 54" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 58 46 C 62 42 70 42 76 45" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 58 54 C 62 50 70 50 76 53" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+</svg>
